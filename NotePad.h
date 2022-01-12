@@ -10,12 +10,13 @@
 class NotePad {
 public:
     struct datas { ;
-        int currIndex;
-        Note notes[];
+       std::list<Note*> Note ;
     };
-    bool AddNote();
-    bool RemoveNote();
+    datas noteDatas;
+    bool AddNote(Note* pippo);
+    bool RemoveNote(std::string title);
     bool ReproduceNote(std::string title);
+    std::_List_iterator<Note *> FindNote(std::string title);
 
 };
 

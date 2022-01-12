@@ -7,15 +7,18 @@
 
 
 #include <string>
+# include "list"
 #include "MultimediaDocument.h"
 
 class Note {
-
+public:
     struct data{
         std::string title;
         std::string content;
-        MultimediaDocument medias[];
+       std::list<MultimediaDocument*>  medias;
     };
+    data dat;
+    void show();
 };
 
 
