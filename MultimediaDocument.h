@@ -8,13 +8,14 @@
 
 class MultimediaDocument {
 public:
-    enum type{
+   /* enum type{
         img,
         video,
         audio
     };
-type _type;
-void show();
+type _type;*/
+std::string path;
+virtual void show()=0;
 
 };
 

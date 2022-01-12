@@ -73,6 +73,24 @@ build CMakeFiles/Notepad.dir/Note.cpp.obj: CXX_COMPILER__Notepad_Debug C$:/Users
   OBJECT_DIR = CMakeFiles\Notepad.dir
   OBJECT_FILE_DIR = CMakeFiles\Notepad.dir
 
+build CMakeFiles/Notepad.dir/Audio.cpp.obj: CXX_COMPILER__Notepad_Debug C$:/Users/miche/CLionProjects/Notepad/Audio.cpp || cmake_object_order_depends_target_Notepad
+  DEP_FILE = CMakeFiles\Notepad.dir\Audio.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Notepad.dir
+  OBJECT_FILE_DIR = CMakeFiles\Notepad.dir
+
+build CMakeFiles/Notepad.dir/Video.cpp.obj: CXX_COMPILER__Notepad_Debug C$:/Users/miche/CLionProjects/Notepad/Video.cpp || cmake_object_order_depends_target_Notepad
+  DEP_FILE = CMakeFiles\Notepad.dir\Video.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Notepad.dir
+  OBJECT_FILE_DIR = CMakeFiles\Notepad.dir
+
+build CMakeFiles/Notepad.dir/Img.cpp.obj: CXX_COMPILER__Notepad_Debug C$:/Users/miche/CLionProjects/Notepad/Img.cpp || cmake_object_order_depends_target_Notepad
+  DEP_FILE = CMakeFiles\Notepad.dir\Img.cpp.obj.d
+  FLAGS = -g -std=gnu++20
+  OBJECT_DIR = CMakeFiles\Notepad.dir
+  OBJECT_FILE_DIR = CMakeFiles\Notepad.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Notepad
@@ -81,7 +99,7 @@ build CMakeFiles/Notepad.dir/Note.cpp.obj: CXX_COMPILER__Notepad_Debug C$:/Users
 #############################################
 # Link the executable Notepad.exe
 
-build Notepad.exe: CXX_EXECUTABLE_LINKER__Notepad_Debug CMakeFiles/Notepad.dir/main.cpp.obj CMakeFiles/Notepad.dir/NotePad.cpp.obj CMakeFiles/Notepad.dir/MultimediaDocument.cpp.obj CMakeFiles/Notepad.dir/Note.cpp.obj
+build Notepad.exe: CXX_EXECUTABLE_LINKER__Notepad_Debug CMakeFiles/Notepad.dir/main.cpp.obj CMakeFiles/Notepad.dir/NotePad.cpp.obj CMakeFiles/Notepad.dir/MultimediaDocument.cpp.obj CMakeFiles/Notepad.dir/Note.cpp.obj CMakeFiles/Notepad.dir/Audio.cpp.obj CMakeFiles/Notepad.dir/Video.cpp.obj CMakeFiles/Notepad.dir/Img.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Notepad.dir
